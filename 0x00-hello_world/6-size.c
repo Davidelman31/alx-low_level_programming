@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - A program that prints a line with puts function
- * Return: 0 (Success)*
+ * main - A program that prints the size of various computer data types
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	char a;
+        char a;
 	int b;
 	long int c;
 	long long int d;
