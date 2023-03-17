@@ -1,8 +1,8 @@
-#include  <stdio.h>
+#include <stdio.h>
 
-/**
- * main - Prints all posiible combinations of two-digit numbers
- * Return : Always 0 (Success)
+/*
+ * main - Prints all possibles combinations of two-digit numbers.
+ * Return: Always 0 (Suuccess)
  */
 int main(void)
 {
@@ -17,8 +17,8 @@ int main(void)
 				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
 				putchar(' ');
-	                        putchar((j / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
 				if (i != 98 || j != 99)
 				{
 					putchar(',');
