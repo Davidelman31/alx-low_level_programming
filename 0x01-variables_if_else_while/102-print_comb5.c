@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-<<<<<<< HEAD
-/*
- * main - Prints all possibles combinations of two-digit numbers.
- * Return: Always 0 (Suuccess)
-=======
 /**
  * main - Prints all possible combinations of two-digit numbers.
  * Return: Always 0 (Success)
->>>>>>> 792379c4092957c3b45473d35329bb68306388d1
  */
 int main(void)
 {
