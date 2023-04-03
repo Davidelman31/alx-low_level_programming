@@ -1,20 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_diagsums - will print the sums
- * @a: input
- * @size: input
+ * set_string - inputs a value to char
+ * @s: content that wil be copied over
+ * @to: is a string
  * Return: Always 0 (Success)
  */
-void print_diagsums(int *a, int size)
+void set_string(char **s, char *to)
 {
-	int i, n, sum1 = 0, sum2 = 0;
-
-	for (i = 0; i <= (size * size); i = i + size + 1)
-		sum1 = sum1 + a[i];
-
-	for (n = size - 1; n <= (size * size) - size; n = n + size - 1)
-	sum2 = sum2 + a[n];
-	printf("%d, %d\n", sum1, sum2);
+	*s = to;
 }
