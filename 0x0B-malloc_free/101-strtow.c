@@ -2,9 +2,9 @@
 
 /**
  * wrdcnt - counts the number of words in a string
- * @s: string to count
+ * @s: the string to be counted.
  *
- * Return: int of number of words
+ * Return: a pointer to an array of strings (words)
  */
 int wrdcnt(char *s)
 {
