@@ -6,7 +6,7 @@
 * @argc: the number of arguments.
 * @argv: A pointer to an array of
 * command-line arguments.
-* Return: 0 on success, 1 on wrong number of arguments, 
+* Return: 0 on success, 1 on wrong number of arguments,
 * 2 on negative number of bytes
 */
 int main(int argc, char **argv)
