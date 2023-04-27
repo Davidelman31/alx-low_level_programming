@@ -1,15 +1,16 @@
 #include<stdio.h>
 
 /**
- * Anchor - prints You're beat! and yet, you must 
+ * Anchor - prints You're beat! and yet, you must
  * allow,\nI bore my house upon my back!\n before
  *  the main function is executed.
  */
-void myStartupFun(void) __attribute__ ((constructor));
+void anchor(void) __attribute__ ((constructor));
 
 /**
- * Anchor - implementation of myStartupFun
- */
+ * anchor - implementation of anchor
+ * execution of a function
+*/
 void anchor(void)
 {
 	printf("You're beat! and yet, you must allow,\n");

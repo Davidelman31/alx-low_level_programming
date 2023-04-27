@@ -23,7 +23,7 @@ int _strlen(const char *s)
 /**
  * add_node - add a new node at beginning of a list_t list.
  * @head: initial linked list.
- * @str: string to be added to the node. 
+ * @str: string to be added to the node.
  * Return: the address of the new list or NULL if Fail.
  */
 list_t *add_node(list_t **head, const char *str)
